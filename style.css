@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
 article {
   border: 5px solid black;
   /* padding: 2px; */
-  width: 825px;
+  width: 850px;
   margin: 0 auto;
   margin-top: 20px;
   position: relative;
@@ -26,8 +27,7 @@ article {
 
 .information {
   color: rgb(58, 62, 58);
-  text-transform: uppercase;
-  font-size: 20px;
+  font-size: 20px;;
 }
 
 .shipping {
@@ -57,48 +57,44 @@ article {
 .available {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 17px;
+  margin-top: 37px;
 }
 
 .colors {
   padding: 5px;
   margin: 10px;
-  letter-spacing: 15px;
+  display: flex;
+  gap: 10px;
 }
 
 .blue {
   width: 25px;
   background-color: blue;
   height: 25px;
-  display: inline-block;
 }
 
 .yellow {
   width: 25px;
   background-color: yellow;
   height: 25px;
-  display: inline-block;
 }
 
 .black {
   width: 25px;
   height: 25px;
   background-color: black;
-  display: inline-block;
 }
 
 .orange-red {
   background-color: orangered;
   width: 25px;
   height: 25px;
-  display: inline-block;
 }
 
 .green {
   width: 25px;
   height: 25px;
   background-color: green;
-  display: inline-block;
 }
 
 /* Colors options ends here. */
@@ -130,6 +126,7 @@ button {
   padding: 5px;
   /* margin: 0px; */
   width: 100%;
+  margin-top: -4px;
 }
 
 button:active {
@@ -143,4 +140,23 @@ button:active {
 .details {
   margin-left: 25px;
   margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+  gap: 25px;
+}
+
+.priceshipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shipping {
+  margin-right: 50px;
+}
+
+.test {
+  width: 243px;
 }
