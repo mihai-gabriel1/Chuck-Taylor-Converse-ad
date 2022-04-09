@@ -141,11 +141,16 @@ button:active {
   margin-left: 25px;
   margin-bottom: 5px;
 }
+/* Flexbox layout starting point */
 
-.flex {
+/* .flex {
   display: flex;
   gap: 25px;
-}
+} */
+
+/* Flexbox layout end */
+
+/* CSS Grid Layout */
 
 .priceshipping {
   display: flex;
@@ -160,3 +165,11 @@ button:active {
 .test {
   width: 243px;
 }
+
+.flex {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+}
+
+
+/* CSS Grid end layout */
